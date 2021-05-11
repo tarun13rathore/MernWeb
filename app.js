@@ -32,9 +32,6 @@ const PORT = process.env.PORT || 3007;
 // app.get('/contact', (req, res) => {
 //     res.send("this is conatct page");
 // });
-app.get('/login', (req, res) => {
-    res.send("this is login page");
-});
 
 //heroku
 if(process.env.NODE_ENV == "production") {
